@@ -13,7 +13,7 @@ class BlogShow extends Component {
       const fullImageUrl = `https://my-blogster-buket.s3.eu-central-1.amazonaws.com/${
         blog.imageUrl
       }`;
-      return <img width="200px" src={fullImageUrl} />;
+      return <img alt="Vladimir" width="200px" src={fullImageUrl} />;
     }
   }
 
